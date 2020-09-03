@@ -42,6 +42,7 @@ module.exports = function(config) {
     reporters: ['dots', 'junit'],
     //Junit configs
     junitReporter: {
+      outputDir: '', // results will be saved as $outputDir/$browserName.xml
       outputFile: 'test-results.xml'
     },
 
